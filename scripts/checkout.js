@@ -91,7 +91,8 @@ cart.forEach((cartItem)=>{
             </div>
     `;
 });
-document.querySelector('.js-order-summary').innerHTML=cartCollection;
+document.querySelector('.js-order-summary').innerHTML=cartCollection
++document.querySelector('.js-payment-summary').outerHTML;
 
 document.querySelectorAll('.js-delete-button')
     .forEach((link)=>{
